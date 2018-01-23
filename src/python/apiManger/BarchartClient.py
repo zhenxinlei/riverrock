@@ -28,7 +28,7 @@ class BarchartClient(object):
 
     debug = False
 
-    def __init__(self, api_key=None, end_point='https://ondemand.websol.barchart.com/'):
+    def __init__(self, api_key=None, end_point='https://marketdata.websol.barchart.com'):
         self.endpoint = end_point
         self.api_key = api_key
         print('Barchart OnDemand Client: ' + self.endpoint)

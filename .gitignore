@@ -1,1 +1,4 @@
 .idea
+historicalData/
+__pycache__
+src/python/apiManger/ApiKeys.py
